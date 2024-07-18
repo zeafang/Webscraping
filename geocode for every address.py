@@ -53,7 +53,7 @@ def geocode_addresses(input_csv, output_csv, api_key):
     print(f"Geocoded addresses saved to {output_csv}")
 
 # Example usage
-api_key = "5a3db60c204b47e09b6cc73988c26986"  # Replace with your OpenCage API key
-input_csv = "asian_market_ontario.csv"  # Path to the input CSV file containing addresses
+api_key = "#############################"  # Replace with your OpenCage API key
+input_csv = "chinese_restaurant.csv"  # Path to the input CSV file containing addresses
 output_csv = "asian_market_ontario_geocode.csv"  # Path to the output CSV file
 geocode_addresses(input_csv, output_csv, api_key)
